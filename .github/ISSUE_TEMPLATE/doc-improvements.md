@@ -7,10 +7,12 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
+### Describe the current issue
 
-A clear and concise description of what the problem is. Ex. This section is unclear [...]
+<!-- A clear and concise description of what the problem is,
+e.g.. This section is unclear ..., or I can't find information on ...
+-->
 
-**Describe the solution you'd like:**
+### Describe the solution you'd like
 
-A clear and concise description of what you want to happen.
+<!-- A clear and concise description of what you would like to see happen. -->

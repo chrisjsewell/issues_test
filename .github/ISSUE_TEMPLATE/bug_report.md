@@ -7,11 +7,16 @@ assignees: ''
 
 ---
 
-**Describe the bug**
+<!-- Before raising an issue, it is suggested that you first check out the: -->
 
-A clear and concise description of what the bug is.
+- [ ] [AiiDA Troubleshooting Documentation](https://aiida.readthedocs.io/projects/aiida-core/en/latest/intro/troubleshooting.html)
+- [ ] [AiiDA Users Forum](https://groups.google.com/forum/#!forum/aiidausers)
 
-**To Reproduce**
+### Describe the bug
+
+<!-- A clear and concise description of what the bug is. -->
+
+### Steps to reproduce
 
 Steps to reproduce the behavior:
 
@@ -20,27 +25,18 @@ Steps to reproduce the behavior:
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior:**
+### Expected behavior
 
-A clear and concise description of what you expected to happen.
+<!-- A clear and concise description of what you expected to happen. -->
 
-If relevant, a minimal example of the input text should be supplied,
-together with a screen-shot of the output Sphinx document and/or command-line output, e.g.
+### Your environment
 
-```markdown
-some text...
-```
+- Operating system [e.g. Linux]:
+- Python version [e.g. 3.7.1]:
+- aiida-core version [e.g. 1.2.1]:
 
-```console
-$ make html
-ERROR ...
-```
+Other relevant software versions, e.g. Postres & RabbitMQ
 
-**Environment (please complete the following information):**
+### Additional context
 
-- Python Version [e.g. 3.7.1]
-- Package Version [e.g. 0.1.0]
-
-**Additional context**
-
-Add any other context about the problem here.
+<!-- Add any other context about the problem here. -->
