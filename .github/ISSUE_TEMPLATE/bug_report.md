@@ -1,38 +1,42 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Report a bug you have encountered 
 title: ''
-labels: ''
+labels: type/bug
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+<!-- Before raising an issue, it is suggested that you first check out the: -->
 
-**To Reproduce**
+- [ ] [AiiDA Troubleshooting Documentation](https://aiida.readthedocs.io/projects/aiida-core/en/latest/intro/troubleshooting.html)
+- [ ] [AiiDA Users Forum](https://groups.google.com/forum/#!forum/aiidausers)
+
+### Describe the bug
+
+<!-- A clear and concise description of what the bug is. -->
+
+### Steps to reproduce
+
 Steps to reproduce the behavior:
+
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+### Expected behavior
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+<!-- A clear and concise description of what you expected to happen. -->
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+### Your environment
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+- Operating system [e.g. Linux]:
+- Python version [e.g. 3.7.1]:
+- aiida-core version [e.g. 1.2.1]:
 
-**Additional context**
-Add any other context about the problem here.
+Other relevant software versions, e.g. Postres & RabbitMQ
+
+### Additional context
+
+<!-- Add any other context about the problem here. -->
