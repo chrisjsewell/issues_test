@@ -1,0 +1,12 @@
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  comment-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: run-something
+        if: github.event.issue.comment.body == "Github, OK to test"
+        run: echo "hi"
