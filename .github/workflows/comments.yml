@@ -8,5 +8,5 @@ jobs:
 
     steps:
       - name: run-something
-        if: github.event.issue.comment.body == "Github, OK to test"
+        if: contains(github.event.comment.html_url, '/pull/') && contains(github.event.comment.body, 'commenttest')
         run: echo "hi"
